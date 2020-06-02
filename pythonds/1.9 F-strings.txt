@@ -1,0 +1,49 @@
+print("%s is %d years old." % ("Cici", 23))
+In the example above, the %s specifies a string, while the %d specifies an integer. Other possible type specifications include i, u, f, e, g, c, or %.
+
+print("{} is {} years old.".format("Cici", 23))
+
+name = "Cici"
+age = 23
+print(f"{name} is {age} years old.")
+
+dictoinary
+person = {'name': 'Cici', 'age': 23}
+print("{} is {} years old.".format(person["name"], person["age"]))
+
+print(f"{person['name']} is {person['age']} years old.")
+
+print(f'4 times 11 is: {4*11}')
+print(f'4 times 11 is: {4*11:.4f}') # print as float with 4 digits
+
+for n in range(1,11):
+    print(f"The value is {n:02}")
+# The value is 01
+# The value is 02
+# The value is 03
+# The value is 04
+# The value is 05
+# The value is 06
+# The value is 07
+# The value is 08
+# The value is 09
+# The value is 10
+
+from datetime import datetime
+birth = datetime(1990, 1, 1)
+print(f"Jenn has a birthday on {birth:%B %d, %Y}")
+
+Additional:
+>>> price = 24
+>>> item = "banana"
+>>> print("The %s costs %d cents"%(item,price))
+The banana costs 24 cents
+>>> print("The %+10s costs %5.2f cents"%(item,price))
+The     banana costs 24.00 cents
+>>> print("The %+10s costs %10.2f cents"%(item,price))
+The     banana costs      24.00 cents
+>>> itemdict = {"item":"banana","cost":24}
+>>> print("The %(item)s costs %(cost)7.1f cents"%itemdict)
+The banana costs    24.0 cents
+>>>
+
