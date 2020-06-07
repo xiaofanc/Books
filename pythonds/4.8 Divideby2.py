@@ -1,5 +1,5 @@
 """
-Stack:
+Stack: fist-in-last-out
 convert integer values into binary numbers
 
 """
@@ -20,7 +20,7 @@ def divideby2(decnumber):
 
     return binstring
 
-print(divideby2(42))
+# print(divideby2(42))
 
 # general case
 
@@ -42,10 +42,11 @@ def baseConver(decnumber, base):
     return binstring
 
 
-print(baseConver(42, 16))
-print(baseConver(233, 16))
-print(baseConver(25, 8))
-print(baseConver(26, 26))
+print(baseConver(2, 2))        # 10
+print(baseConver(42, 16))      # 2A
+print(baseConver(233, 16))     # E9
+print(baseConver(25, 8))       # 31
+print(baseConver(26, 26))      # 10
 
 
 
