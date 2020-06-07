@@ -10,7 +10,7 @@ peek(): the top
 isEmpty()
 size()
 """
-# Implementing a Stack class using Python lists
+# Implementing a Stack class using Python lists, top is the end.
 
 class Stack:
     def __init__(self):
@@ -54,10 +54,11 @@ class Stack:
     def __str__(self):
         return str(self.items)
 
-s = Stack()
-s.push('hello')
-s.push('true')
-print(s.pop())
+if __name__ == '__main__':  
+    s = Stack()
+    s.push('hello')
+    s.push('true')
+    print(s.pop())
 
 
 
