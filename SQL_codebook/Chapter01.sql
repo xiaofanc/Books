@@ -1,3 +1,4 @@
+-- Chapter 1: Retrieving Records
 -- 1.3 where
 select * 
     from emp

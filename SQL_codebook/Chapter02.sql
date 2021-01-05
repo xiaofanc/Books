@@ -1,3 +1,4 @@
+-- Chapter 2: Sorting Query Results
 -- 2.1 order by
 select ename. job, sal
 from emp
