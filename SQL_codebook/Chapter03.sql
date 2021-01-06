@@ -1,4 +1,4 @@
--- Chapter 3: Working with Multiple Tables
+-- Chapter 3: Working with Multiple Tables - Join
 -- 3.1 
 -- Union all: will include duplicates if they exist
 -- Union: will filter out duplicates
@@ -96,7 +96,7 @@ from emp e, dept d
 where e.deptno = d.deptno
 order by 2
 
--- 3.7 determine whether two tables have the same data
+-- 3.7 determine whether two tables have the same data (**)
 -- find the difference between view V and table EMP combined with the difference between table EMP and view V
 -- DB2, PostgreSQL, and SQL Server
 (
