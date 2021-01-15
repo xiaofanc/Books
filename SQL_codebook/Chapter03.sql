@@ -1,4 +1,5 @@
 -- Chapter 3: Working with Multiple Tables - Join
+
 -- 3.1 
 -- Union all: will include duplicates if they exist
 -- Union: will filter out duplicates

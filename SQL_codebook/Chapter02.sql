@@ -1,4 +1,5 @@
 -- Chapter 2: Sorting Query Results
+
 -- 2.1 order by
 select ename. job, sal
 from emp
@@ -35,6 +36,7 @@ characters were left
 replace characters with '' in data, then nums were left
 */
 -- Oracle, SQL Server, and PostgreSQL
+-- no TRANSLATE in MySQL
 -- The TRANSLATE function is not currently supported by MySQL
 select data,
 replace(translate(data, '0123456789', '##########'),'#','') as chars,

@@ -1,4 +1,5 @@
 -- Chapter 5: Metadata Queries
+
 -- 5.1 list tables in a schema
 -- PostgreSQL, MySQL, and SQL Server
 select table_name
